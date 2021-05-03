@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- <div class="box"></div>
+
+    <div class="box">
+      <section>
+        <h2>blah2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aliquid
+          quidem blanditiis rerum nemo accusantium cupiditate illo, vero quam
+          hic!
+        </p>
+      </section>
+    </div>
+
+    <div class="container"> -->
+  <!-- <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nostrum tenetur atque inventore exercitationem laudantium. Facere at dolorum neque quia.
+
+      </p>
+      <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nostrum tenetur atque inventore exercitationem laudantium. Facere at dolorum neque quia.
+
+      </p>
+      <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nostrum tenetur atque inventore exercitationem laudantium. Facere at dolorum neque quia.
+
+      </p>
+      <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nostrum tenetur atque inventore exercitationem laudantium. Facere at dolorum neque quia.
+
+      </p>
+      <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nostrum tenetur atque inventore exercitationem laudantium. Facere at dolorum neque quia.
+
+      </p>
+    </div> -->
+
+  <div class="container">
+
+
+
+  </div>
+
+  <svg width="400" height="300" style="outline: 1px solid black;">
+    <rect width="250" height="250" fill="palevioletred" stroke="black" stroke-width="10" x="20" y="20" rx="42"
+      ry="42" />
+    <rect width="250" height="150" fill="orange" stroke="#2a2a2a" stroke-width="4" x="120" y="120" rx="60" ry="30" />
+  </svg>
+
+  <svg width="600" height="400" style="outline: 1px solid black;">
+    <circle r="150" fill="orange" stroke="red" stroke-width="8" cx="300" cy="200" />
+  </svg>
+
+  <svg width="400" height="300" style="outline: 7px dotted #8aa7be;">
+    <ellipse rx="150" ry="100" cx="200" cy="150" fill="teal" stroke="#8aa7be" stroke-width="12" />
+  </svg>
+  <svg width="400" height="300" style="outline: 2px dashed #2a2a2a;">
+    <line x1="20" y1="50" x2="380" y2="50" stroke="#2a2a2a" stroke-width="16" />
+    <line x1="80" y1="200" x2="400" y2="180" stroke="#8aa7be" stroke-width="16" />
+    <line x1="20" y1="110" x2="380" y2="110" stroke="#2a2a2a" stroke-width="16" />
+  </svg>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:ev="http://www.w3.org/2001/xml-events" width="400" height="200" viewBox="0 0 400 200">
+    <circle r="100" cx="50%" cy="50%" fill="red" />
+  </svg>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:ev="http://www.w3.org/2001/xml-events" width="400" height="200" viewBox="0 0 200 100">
+    <circle r="50" cx="50%" cy="50%" fill="red" />
+  </svg>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:ev="http://www.w3.org/2001/xml-events" width="400" height="200" viewBox="0 0 800 400">
+    <circle r="50" cx="50%" cy="50%" fill="red" />
+  </svg>
+
+  <!--positioning-->
+  <div class="container">
+    <div class="thumb">
+      <img src="https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=320"
+        alt="two-yellow-labrador-retriever-puppies">
+      <p class="label">Dog</p>
+    </div>
+
+    <div class="thumb">
+      <img
+        src="https://images.pexels.com/photos/2558605/pexels-photo-2558605.jpeg?auto=compress&cs=tinysrgb&dpr=2&&w=320"
+        alt="adorable-animal-blur-cat">
+      <p class="label">Cat</p>
+    </div>
+
+    <div class="thumb">
+      <img
+        src="https://images.pexels.com/photos/1300361/pexels-photo-1300361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=320"
+        alt="black-hog-prone-lying-on-soil-under-shade-of-tree">
+      <p class="label">Pig</p>
+    </div>
+  </div>
+
+  <!-- testing forms -->
+
+  <form class="form js-speaker-form  modal-content" autocomplete="on">
+
+    <div class="form-field">
+      <label for="name" class="form-label">Имя</label>
+      <input type="text" name="username" id="name" autofocus placeholder="Иван Иваныч" class="form-input">
+      <!-- <label>Имя
+    <input type="text" name="username">
+  </label>
+  оба варианта рабочие, но первый правильнее и чаще используется -->
+    </div>
+
+    <div class="form-field">
+      <label for="tel" class="form-label">Телефон</label>
+      <input type="tel" name="tel" id="tel" class="form-input">
+    </div>
+    <div class="form-field">
+      <label for="email" class="form-label">Почта</label>
+      <input type="email" name="email" id="email" class="form-input">
+    </div>
+    <div role="group" class="group">
+      <h2 class="group-title">Тема доклада</h2>
+      <ul class="topic-options">
+        <li>
+          <input type="checkbox" name="topic" value="html" id="html">
+          <label for="html">HTML</label>
+        </li>
+        <li>
+          <input type="checkbox" name="topic" value="css" id="css">
+          <label for="css">CSS</label>
+        </li>
+        <li>
+          <input type="checkbox" name="topic" value="js" id="js">
+          <label for="js">JavaScript</label>
+        </li>
+      </ul>
+
+
+
+    </div>
+
+    <div role="group" class="group">
+      <h2 class="group-title">Уровень знаний</h2>
+      <ul class="level-options">
+        <li><input type="radio" name="level" value="junior" id="junior" checked>
+          <label for="Junior">Junior</label>
+        </li>
+        <li><input type="radio" name="level" value="middle" id="middle">
+          <label for="middle">Middle</label>
+        </li>
+        <li><input type="radio" name="level" value="senior" id="senior">
+          <label for="senior">Senior</label>
+        </li>
+      </ul>
+
+
+
+
+
+    </div>
+
+    <div class="form-field">
+      <label for="time">Время доклада</label>
+      <input type="datetime-local" name="time" id="time" min="2021-05-10T10:00" class="time">
+    </div>
+
+    <div class="form-field">
+      <label for="pdf">Загрузите копию доклада в pdf</label>
+      <input type="file" name="pdf" id="pdf">
+    </div>
+
+    <div class="form-field">
+      <label for="comment">Оставить комментарий</label>
+      <textarea name="comment" id="comment" rows="10"></textarea>
+    </div>
+
+    <div class="form-field">
+      <input type="checkbox" name="accept" id="policy">
+      <label for="policy">Соглашаюсь с политикой конфиденциальности</label>
+    </div>
+
+    <button type="submit">Отправить</button>
+
+  </form>
+  <script>
+    (() => {
+      document.querySelector('.js-speaker-form').addEventListener('submit', e => {
+        e.preventDefault();
+
+        new FormData(e.currentTarget).forEach((value, name) =>
+          console.log(`${name}: ${value}`),
+        );
+
+        e.currentTarget.reset();
+      });
+    })();
+  </script>
+  <!-- 
+    e.currentTarget.reset(); - для атвосброса после отправки формы -->
+</body>
+
+</html>

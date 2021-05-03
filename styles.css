@@ -1,0 +1,166 @@
+
+html {
+    box-sizing: border-box;
+  }
+  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+    --main-text-cl: #757575;
+    --add-cl: #212121;
+    --wh-cl: #ffffff;
+    --bl-cl: #000000;
+    --accent-cl: #2196f3;
+    --backgr-dark: #2f303a;
+    --alt-backgr: #f5f4fa;
+}
+  
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-cl);
+    font-weight: 400;
+    margin: 0;
+}
+
+.box {
+      width: 500px;
+      height: 100px;
+      background-color: teal;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+section {
+      margin-top: 50px;
+background-color: tomato;
+  }
+
+h2 {
+      margin-top: 0;
+  }
+/* 
+  .container {
+      width: 1440px;
+      outline: tomato;
+      margin-left: auto;
+      margin-right: auto;
+  } */
+  
+  /* positioning */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f9f9fd;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .thumb {
+    position: relative;
+    margin: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  }
+  
+  .thumb > .label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+    padding: 8px 16px;
+    border-bottom-left-radius: 4px;
+  
+    font-family: sans-serif;
+    font-size: 24px;
+    background-color: #2196f3;
+    color: #fff;
+  }
+
+
+  /* testing forms */
+  textarea {
+    resize: none;
+  }
+
+  .form {
+    width: 600px;
+    outline: 1px solid tomato;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .form-field input {
+    margin: 0;
+    padding: 10px 12px;
+    border-radius: 3px;
+    border: 1px solid #2a2a2a;
+    }
+
+  .form-field label {
+    margin-bottom: 5px;
+  }
+
+  .form-field input::placeholder {
+    color: #2196f3;
+  }
+
+  .group {
+
+  }
+  
+  .group-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .level-options,
+  .topic-options {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .topic-options label{
+    font-size: 20px;
+  }
+
+  .topic-options input[type="checkbox"] {
+    
+  }
+
+  .form-field .time{
+    border-color: red;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 45px;
+    color: teal;
+
+  }
